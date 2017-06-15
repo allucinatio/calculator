@@ -1,0 +1,78 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+.calc-wrapper {
+    width: 33vw;
+    margin: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key {
+  width: 8vw;
+  height: 8vw;
+  border: thin solid white;
+  background: #61B34F;
+}
+
+.key.operator{
+  background: #83C178;
+}
+
+.key span{
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.75rem;
+  font-weight: 200;
+}
+
+.operator span{
+  color: black;
+}
+
+.operator:hover span{
+    color: white;
+}
+
+.action:hover {
+  background: #83C178;
+}
+
+.display {
+  width: 24vw;
+  height: 8vw;
+  border: 1px solid black;
+  padding-right: 2rem;
+  font-family: sans-serif;
+  font-size: 1.75rem;
+  font-weight: 200;
+  border: thin solid white;
+  background: #61B34F;
+  color: white;
+}
+
+.display p{
+  float: right;
+  line-height: 8vw;
+
+}
